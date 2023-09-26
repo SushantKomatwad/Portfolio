@@ -1,0 +1,65 @@
+.n-wrapper{
+    height : 10vh;
+    display: flex;
+    justify-content:space-between ;
+    padding: 0.5rem 3.5rem;
+}
+
+.n-left{
+    flex : 1;
+    align-items: center;
+    display: flex;
+    gap : 2rem;
+}
+
+.n-name{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.n-right{
+   display: flex;
+   flex : 1; 
+   align-items: center;
+   justify-content: center; 
+   font-weight: 400;
+}
+
+.n-list{
+    flex : 10;
+}
+
+
+.n-list>ul{
+    display: flex;
+    gap : 2rem;
+    margin: 4rem ;
+    list-style-type:none;
+}
+
+.n-list>ul>li:hover{
+   cursor : pointer; 
+   color : #FCA61F;
+}
+
+.n-list ul li{
+    font-weight: bold
+}
+
+.btn{
+    border-radius: 34px;
+    border : none;
+    color : white;
+    font-size: 16px;
+    padding: 10px;
+    background: linear-gradient(180deg , #fdc50f 26.71% , #fb982f 99.38%);
+    box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+    
+}
+
+.btn:hover{
+  background: white;
+  cursor: pointer;
+  color :#FCA61F;
+  border : 1px solid #FCA61F
+}
