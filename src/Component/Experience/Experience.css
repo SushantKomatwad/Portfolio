@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 370px;
+    margin-bottom: -100px;
 }
 
 .new_circle{
@@ -71,6 +71,7 @@
     justify-content: space-between;
     width :100%;
     max-width: 800px;
+    
   }
 
   .education-image {
@@ -96,5 +97,21 @@
 
   .education span{
     text-shadow: -10px 6px 4px rgba(0,0,0,0.5);
+  }
+
+  .experience h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#242321;
+    margin-bottom: 420px;
+    text-shadow: -4px 6px 8px;
+  }
+
+  .experience h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:#FCA61F;
+    margin-bottom: 300px;
+    text-shadow: -8px 6px 8px;
   }
   
